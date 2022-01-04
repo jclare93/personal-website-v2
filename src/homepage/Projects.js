@@ -3,32 +3,45 @@ import React from 'react'
 function Projects(){
     return(
     <div className="container border border-secondary bg-light rounded-3">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="..." />
+        <h3 className ="d-flex justify-content-center py-3">Projects</h3>
+        <ul class="list-unstyled">
+            <li class="media">
+                <img src="..." class="mr-3" alt="..." />
+                <div class="media-body">
+                <h5 class="mt-0 mb-1"><strong>Restaurant Reservation App</strong></h5>
+                <p> This application can be used by business administrators to manage their restaurant's 
+                    reservations, tables, and customers. It can also be used by customers to make reservation,
+                    choose their tables, and edit their details.
+                </p>
+                <a href="https://github.com/jclare93/starter-restaurant-reservation"><b>GitHub Link</b></a> 
+                ||
+                <a href="https://restaurant-rez-client.herokuapp.com/"><b> Live Demo</b></a>
+                <p></p>
+                <p><b>Technology used:</b> React, JavaScript, NodeJS, Postgres, Git, Express, and deployed with Heroku.</p>
                 </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
+            </li>
+            <li class="media my-4">
+                <img src="..." class="mr-3" alt="..." />
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Flashcards App</h5>
+                <p>This is a web based React application. This is an application developed using mostly 
+                ReactJS and Javascript. This project demonstrates
+                how to build custom hooks and proficiently manage state in react web applications.
+                </p>
+                <p></p>
+                <a href="https://github.com/jclare93/Project_Flashcards"><b>Github Link</b></a>
+                <p></p>
+                <p><b>Technology Used:</b>Uses Javascript, HTML, CSS, and React; designed with Bootstrap with React.</p>
                 </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
+            </li>
+            <li class="media">
+                <img src="..." class="mr-3" alt="..." />
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+            </li>
+        </ul>
     </div>
     )
 }
