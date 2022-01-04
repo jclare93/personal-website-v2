@@ -22,8 +22,8 @@ function Homepage(){
                     </div>
                 </div>
             
-                <div className="row fill-window-jumbo" id="Home">
-                    <div className="col">
+                <div className="row fill-window-jumbo d-flex justify-content-center" id="Home">
+                    <div className="col-6">
                         <Jumbotron hoverOn={hoverOn} hoverOver={hoverOver} setHoverOn={setHoverOn}
                         setHoverOver={setHoverOver}/>
                     </div>
