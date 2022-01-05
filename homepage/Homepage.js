@@ -6,6 +6,7 @@ import TechStack from "./TechStack"
 import {Route, Routes} from "react-router-dom"
 import "./Homepage.css"
 import Projects from "./Projects"
+import Contact from "./Contact"
 
 function Homepage(){
     const [hoverOn, setHoverOn] = useState(false)
@@ -48,6 +49,12 @@ function Homepage(){
                 <div className = "row fill-window" id="Projects">
                     <div className = "col">
                         <Projects hoverOn={hoverOn} hoverOver={hoverOver} setHoverOn={setHoverOn}
+                        setHoverOver={setHoverOver}/>
+                    </div>
+                </div>
+                <div className = "row fill-window-jumbo d-flex justify-content-center pt-5" id="Contact">
+                    <div className = "col">
+                        <Contact hoverOn={hoverOn} hoverOver={hoverOver} setHoverOn={setHoverOn}
                         setHoverOver={setHoverOver}/>
                     </div>
                 </div>
