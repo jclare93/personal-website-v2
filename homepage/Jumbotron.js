@@ -55,7 +55,7 @@ function Jumbotron({hoverOn, hoverOver, setHoverOn, setHoverOver}) {
         <div className="container border border-secondary rounded-circle bg-light d-flex align-content-center 
         flex-wrap justify-content-center" 
         onMouseOut={() => setHoverOver(false)} onMouseOver={() => setHoverOver(1)} 
-        style={{height:"80vh", transform: `${hoverOver===1? 'scale(1.02,1.02)' : 'scale(1,1)'}`}}>
+        style={{height:"80vh", minWidth: 'min-content', transform: `${hoverOver===1? 'scale(1.02,1.02)' : 'scale(1,1)'}`}}>
         <div className = "row">  
             <div className="col">
                 <div className= "row ">
@@ -65,7 +65,7 @@ function Jumbotron({hoverOn, hoverOver, setHoverOn, setHoverOver}) {
                             <h1 className="display-3 fw-bold text-nowrap ">John Clare</h1>
                         </div>           
                         <div className="row">
-                            <div className="col text-nowrap">
+                            <div className="col text-nowrap d-flex justify-content-center">
                                 <h2>Full Stack Developer</h2>
                             </div>
                         </div>  
