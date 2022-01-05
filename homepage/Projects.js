@@ -16,8 +16,8 @@ function Projects(){
                     reservations, tables, and customers. It can also be used by customers to make reservation,
                     choose their tables, and edit their details.
                 </p>
-                <a href="https://github.com/jclare93/starter-restaurant-reservation"><b>GitHub Link</b></a> 
-                ||
+                <a href="https://github.com/jclare93/starter-restaurant-reservation"><b>GitHub Link</b></a>
+                 <br></br>
                 <a href="https://restaurant-rez-client.herokuapp.com/"><b> Live Demo</b></a>
                 <p></p>
                 <p><b>Technology used:</b> React, JavaScript, NodeJS, Postgres, Git, Express, and deployed with Heroku.</p>
@@ -46,7 +46,7 @@ function Projects(){
                     It is a timer based on the “Pomodoro Method” to help improve time management skills for work or studying.
                 </p>
                 <a href="https://github.com/jclare93/Pomodoro-Timer"><b>GitHub Link</b></a> 
-                ||
+                <br></br>
                 <a href="https://project-pomodoro-timer-qualified-1-coral-pi.vercel.app/"><b> Live Demo</b></a>
                 <p></p>
                 <p><b>Technology used:</b> JavaScript, HTML, CSS, and React, and deployed on Vercel.</p>
