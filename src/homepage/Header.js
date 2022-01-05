@@ -13,9 +13,12 @@ function Header(){
                         duration={500} className="nav-link" type="button">Home</Link>
                         <Link activeClass="active" to="AboutMe" spy={true} smooth={true} offset={-70}
                         duration={500} className="nav-link" type="button">About</Link>
-                        <a class="nav-link" href="#">Projects</a>
                         <Link activeClass="active" to="TechStack" spy={true} smooth={true} offset={-70}
                         duration={500} className="nav-link" type="button">Tech Stack</Link>
+                        <Link activeClass="active" to="Projects" spy={true} smooth={true} offset={-70}
+                        duration={500} className="nav-link" type="button">Projects</Link>
+                        <Link activeClass="active" to="Contact" spy={true} smooth={true} offset={-70}
+                        duration={500} className="nav-link" type="button">Contact</Link>
                     </div>
                     </div>
                 </div>
