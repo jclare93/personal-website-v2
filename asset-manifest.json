@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/personal-website-v2/static/css/main.976ac2fc.chunk.css",
+    "main.js": "/personal-website-v2/static/js/main.37850ef5.chunk.js",
+    "main.js.map": "/personal-website-v2/static/js/main.37850ef5.chunk.js.map",
+    "runtime-main.js": "/personal-website-v2/static/js/runtime-main.328a2943.js",
+    "runtime-main.js.map": "/personal-website-v2/static/js/runtime-main.328a2943.js.map",
+    "static/css/2.acf9cc11.chunk.css": "/personal-website-v2/static/css/2.acf9cc11.chunk.css",
+    "static/js/2.3a455921.chunk.js": "/personal-website-v2/static/js/2.3a455921.chunk.js",
+    "static/js/2.3a455921.chunk.js.map": "/personal-website-v2/static/js/2.3a455921.chunk.js.map",
+    "index.html": "/personal-website-v2/index.html",
+    "static/css/2.acf9cc11.chunk.css.map": "/personal-website-v2/static/css/2.acf9cc11.chunk.css.map",
+    "static/css/main.976ac2fc.chunk.css.map": "/personal-website-v2/static/css/main.976ac2fc.chunk.css.map",
+    "static/js/2.3a455921.chunk.js.LICENSE.txt": "/personal-website-v2/static/js/2.3a455921.chunk.js.LICENSE.txt",
+    "static/media/CSS3.3ec32022.svg": "/personal-website-v2/static/media/CSS3.3ec32022.svg",
+    "static/media/JavascriptLogo.aea239be.svg": "/personal-website-v2/static/media/JavascriptLogo.aea239be.svg",
+    "static/media/JohnCoffee.e659f44e.jpg": "/personal-website-v2/static/media/JohnCoffee.e659f44e.jpg",
+    "static/media/NodeLogo.2879fa18.svg": "/personal-website-v2/static/media/NodeLogo.2879fa18.svg",
+    "static/media/Posgresql.6d3129da.svg": "/personal-website-v2/static/media/Posgresql.6d3129da.svg",
+    "static/media/ReactLogo.e7574af2.svg": "/personal-website-v2/static/media/ReactLogo.e7574af2.svg",
+    "static/media/Typescript.f20748ca.svg": "/personal-website-v2/static/media/Typescript.f20748ca.svg",
+    "static/media/indexcard.2231dd64.svg": "/personal-website-v2/static/media/indexcard.2231dd64.svg",
+    "static/media/restaurantres.b9654c04.svg": "/personal-website-v2/static/media/restaurantres.b9654c04.svg",
+    "static/media/timerround.b688d864.svg": "/personal-website-v2/static/media/timerround.b688d864.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.328a2943.js",
+    "static/css/2.acf9cc11.chunk.css",
+    "static/js/2.3a455921.chunk.js",
+    "static/css/main.976ac2fc.chunk.css",
+    "static/js/main.37850ef5.chunk.js"
+  ]
+}
